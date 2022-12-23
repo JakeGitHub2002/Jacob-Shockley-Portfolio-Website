@@ -1,0 +1,35 @@
+body, html{
+margin: 0;
+padding: 0;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    /* add background image to header */
+    background-image: url('./images/lightningbolt.jpg');
+
+}
+
+header h1{
+    font-size: 20px;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+header nav{
+    font-size: 10px;
+    font-family: 'Rubik Gemstones', cursive;
+    color: Black;
+}
+
+main{
+    padding:10px;
+    color: rgb(0, 0, 0);
+    outline: 5px solid;
+}
+
+body{
+    background-image: url('./images/paper.jpg') ;
+}
